@@ -100,14 +100,15 @@ Identity-based Access: No more local passwords; use Azure's Managed Identity for
 
 Unified Monitoring: Real-time performance tracking of local hardware on a cloud-based Grafana dashboard.
 
-👨‍💻 Author
+---
+👨‍💻 **Author**
+**MD. Abdulla Al Mosabbir (Mridu)**
+*System Engineer at BG Group*
 
-MD. Abdulla Al Mosabbir (Mridu)
+🌐 **Portfolio:** [mridu.top](https://mridu.top)
+🐙 **GitHub:** [mosabbir4210](https://github.com/mosabbir4210)
+🔗 **LinkedIn:** [mosabbirmridu](https://www.linkedin.com/in/mosabbirmridu)
 
-System Engineer & Hybrid Cloud Specialist
-
-IT Engineer at BG Group
-
-Connect: mridu.top | GitHub: mridu4210
+---
 
   

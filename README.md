@@ -67,6 +67,9 @@ sudo azcmagent connect \
   --tenant-id "0d10001d-8cef-422f-b6e0-18e980120ef4" \
   --use-device-code
 ```
+<p align="center">
+  <img src="Screenshots/Hybrid_Bridge_Overview.png" alt="Azure Arc Connection" width="850">
+</p> 
 
 ## 2. Hybrid Security: SSL/TLS Handshake Fix
 Modern local servers (AlmaLinux 10) require manual tuning to maintain secure communication with Azure's hybrid endpoints:

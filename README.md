@@ -10,7 +10,7 @@ This project enables managing a local physical/virtual server directly from the 
 The goal of this project is to eliminate the boundary between local and cloud infrastructure. By using **Azure Arc**, we extend Azure's management and security capabilities to our local environment, creating a unified **Hybrid Cloud Control Plane**.
 
 <p align="center">
-  <img src="Screenshots/Hybrid_Bridge_Overview.png" alt="Local to Azure Hybrid Bridge" width="850">
+  <img src="Screenshots/Overview.png" alt="Hybrid Cloud Overview" width="850">
 </p>
 
 ---

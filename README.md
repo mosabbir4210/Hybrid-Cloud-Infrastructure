@@ -41,11 +41,18 @@ This is the most critical part of the Azure-side security:
   * Assigned `Monitoring Metrics Publisher` role to the server identity on the Log Analytics Workspace.
 * **Grafana Identity:** Assigned `Monitoring Reader` role to the `mridu-grafana-portal` managed identity at the Resource Group level.
 
+<p align="center">
+  <img src="Screenshots/RBAC_Config.png" alt="Azure RBAC Identity Access" width="850">
+</p>
+
 ### 5. Azure Managed Grafana Setup
 * Deployed **Azure Managed Grafana** to visualize the hybrid metrics.
 * **Data Source:** Connected to **Azure Monitor API**.
 * **Dashboard:** Imported the `Azure Infrastructure Monitoring (Compute)` dashboard template.
-
+* 
+<p align="center">
+  <img src="Screenshots/Grafana_Dashboard_View.png" alt="Azure Managed Grafana Dashboard" width="850">
+</p>
 ---
 
 ## 🏗️ Architecture: The Hybrid Bridge
@@ -79,6 +86,10 @@ Modern local servers (AlmaLinux 10) require manual tuning to maintain secure com
 sudo update-crypto-policies --set LEGACY
 sudo systemctl restart azuremonitoragent
 ```
+<p align="center">
+  <img src="Screenshots/Server_Connection_Success.png" alt="Server Connection Terminal" width="850">
+</p>
+
 ## 3. Monitoring the Hybrid Environment
 Using Data Collection Rules (DCR), telemetry data from the local server is streamed to the Azure Log Analytics Workspace and visualized via Azure Managed Grafana.
 

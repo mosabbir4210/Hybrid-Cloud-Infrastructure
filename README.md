@@ -90,8 +90,7 @@ Unified Monitoring: Real-time performance tracking of local hardware on a cloud-
 MD. Abdulla Al Mosabbir (Mridu)
 System Engineer & Hybrid Cloud Specialist
 IT Engineer at BG Group
-Microsoft Learn Student Ambassador
 
-Connect: mridu.top | GitHub: mridu1
+Connect: mridu.top | GitHub: mridu4210
 
   
